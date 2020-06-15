@@ -41,3 +41,10 @@ Get the 2's complement representation of an octet. Useful with negative integers
 >>> get_2c('-53')
 '11001011'
 ```
+
+Convert an octet in binary, 2's complement representation to a decimal.
+```
+>>> get_2c('10011001')
+'-103'
+
+```
