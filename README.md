@@ -2,7 +2,7 @@
 A module of various ipv4-related functions 
 
 
-Some examples:
+**Some examples:**
 
 
 Convert a subnet mask in CIDR notation to its dotted-decimal notation.
@@ -22,7 +22,7 @@ Convert a dot-notation IP address and a CIDR-notation subnet mask to their binar
 
 ```
 
-Get the subnet address and the broadcast address of a particular IP address - subnet mask (in CIDR) combination. 
+Get the subnet address and the broadcast address of a particular [ IP address - subnet mask (in CIDR) ] combination. 
 ```
 >>> get_ends('192.168.0.53', '/25')
 
